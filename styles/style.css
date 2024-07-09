@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* universal styles */
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+main {
+  border: 2px solid red;
+  max-width: 1140px;
+  height: 560px;
+  margin: 50px auto;
+  
+}
+
+/* common styles start */
+
+
+/* common styles end */
+
+
+/* header nav styles */
+header nav{
+  /* border: 1px solid magenta; */
+  max-width: 1140px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+header nav h3{
+  font-size: 28px;
+  font-weight: 900;
+
+}
+header nav a{
+  padding: 10px;
+  border: 1px solid gainsboro;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #0D1321;
+}
+
+/* header-banner styles */
+.header-banner-section{
+  width: 100%;
+  background-image: url("../assets/banner-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover  ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 26px;
+  padding-bottom: 44px;
+  margin-bottom: 25px;
+  
+}
+.banner-container{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  text-align: center;
+}
+
+.banner-img{
+
+}
+.banner-title{
+  font-weight: 900;
+  line-height: 48px;
+}
+.banner-desc{
+  color: #0D1321;
+  line-height: 26px;
+}
+.banner-btn a{
+  padding: 10px;
+  background-color: #0D1321;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #FFFFFF;
+  font-weight: 500;
+  word-spacing: -5px;
+}
