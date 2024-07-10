@@ -41,6 +41,7 @@ main {
   margin-bottom: 48px;
 }
 
+
 .heading-style h2 {
   font-size: 32px;
   font-weight: 900;
@@ -104,8 +105,9 @@ header nav a {
 }
 
 .banner-title {
+  font-size: 48px;
   font-weight: 900;
-  line-height: 48px;
+  line-height: 68px;
 }
 
 .banner-desc {
@@ -127,14 +129,14 @@ header nav a {
 /* QA section styles */
 .QA-section {
   max-width: 946px;
-  margin: 30px auto;
-  padding-bottom: 18px;
+  margin: 50px auto;
+  padding: 10px 0px;
   background-color: rgb(250, 250, 251);
 
 }
 
 .QA-section .QA-container {
-  margin: 48px;
+  margin: 48px; 
 }
 
 /* QA-columns style */
@@ -176,11 +178,11 @@ header nav a {
 
 /* Inspiration section styles */
 .inspiration-section {
-  margin: 50px 0px;
+  margin:  120px 0px;
 }
 
 .inspiration-video-container {
-  border: 1px solid rgb(126, 126, 126);
+  border: 1px solid rgba(126, 126, 126, 0.342);
   border-radius: 12px;
   padding: 24px;
 }
@@ -205,7 +207,7 @@ header nav a {
 }
 
 .target-card {
-  padding: 20px;
+  padding: 32px;
   border-radius: 12px;
   display: flex;
   flex-direction: column;
@@ -282,7 +284,7 @@ header nav a {
 }
 
 .contact-contents p {
-  color: #FFFFFF;
+  color: rgb(142, 140, 139);
   font-size: 16px;
   line-height: 26px;
 }
@@ -292,10 +294,12 @@ header nav a {
   width: 480px;
   border-radius: 8px;
   border: none;
+  font-size: 14px;
+  word-spacing: 2px;
 }
 
 .input-submit-part input[type="submit"] {
-  padding: 16px 24px;
+  padding: 18px 24px;
   border-radius: 8px;
   border: none;
   font-weight: bold;
@@ -307,7 +311,7 @@ header nav a {
 .footer-container{
   border-radius: 16px;
   background: rgba(13, 19, 33, 0.03);
-  padding: 32px 150px 32px 150px;
+  padding: 28px 150px 28px 150px;
   display: flex;
   justify-content: space-between;
   align-items: center;
