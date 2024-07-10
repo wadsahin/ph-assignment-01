@@ -1,27 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* universal styles */
-*{
+* {
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
 }
 
-body{
+body {
   font-family: "Azeret Mono", monospace;
   font-optical-sizing: auto;
   font-style: normal;
 }
 
 main {
-  border: 2px solid red;
   max-width: 1140px;
   margin: 50px auto;
-  
 }
 
 /* common styles start */
-.btn{
+.btn {
   padding: 6px;
   border: 1px solid gainsboro;
   text-decoration: none;
@@ -31,7 +29,7 @@ main {
 
 /* common styles end */
 
-.heading-style{
+.heading-style {
   max-width: 852px;
   margin: 0 auto;
   display: flex;
@@ -42,17 +40,18 @@ main {
   gap: 20px;
   margin-bottom: 48px;
 }
-.heading-style h2{
+
+.heading-style h2 {
   font-size: 32px;
   font-weight: 900;
 }
 
-.heading-style p{
+.heading-style p {
   line-height: 26px;
 }
 
 /* header nav styles */
-header nav{
+header nav {
   /* border: 1px solid magenta; */
   max-width: 1140px;
   margin: 20px auto;
@@ -61,12 +60,14 @@ header nav{
   align-items: center;
   padding: 20px;
 }
-header nav h3{
+
+header nav h3 {
   font-size: 28px;
   font-weight: 900;
 
 }
-header nav a{
+
+header nav a {
   padding: 10px;
   border: 1px solid gainsboro;
   border-radius: 8px;
@@ -76,21 +77,22 @@ header nav a{
 }
 
 /* header-banner styles */
-.header-banner-section{
+.header-banner-section {
   width: 100%;
   background-image: url("../assets/banner-bg.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover  ;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 26px;
   padding-bottom: 44px;
   margin-bottom: 25px;
-  
+
 }
-.banner-container{
+
+.banner-container {
   width: 80%;
   margin: 0 auto;
   display: flex;
@@ -101,15 +103,17 @@ header nav a{
   text-align: center;
 }
 
-.banner-title{
+.banner-title {
   font-weight: 900;
   line-height: 48px;
 }
-.banner-desc{
+
+.banner-desc {
   color: #0D1321;
   line-height: 26px;
 }
-.banner-btn a{
+
+.banner-btn a {
   padding: 10px;
   background-color: #0D1321;
   border-radius: 8px;
@@ -121,20 +125,21 @@ header nav a{
 }
 
 /* QA section styles */
-.QA-section{
+.QA-section {
   max-width: 946px;
   margin: 30px auto;
   padding-bottom: 18px;
   background-color: rgb(250, 250, 251);
 
 }
-.QA-section .QA-container{
+
+.QA-section .QA-container {
   margin: 48px;
 }
 
 /* QA-columns style */
 
-.QA-column{
+.QA-column {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -145,14 +150,15 @@ header nav a{
   padding: 26px;
 }
 
-.column-contents{
+.column-contents {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 16px;
 
 }
-.column-contents h3{
+
+.column-contents h3 {
   color: #0D1321;
   opacity: 0.7;
   font-size: 24px;
@@ -161,31 +167,35 @@ header nav a{
 
 }
 
-.column-contents p{
+.column-contents p {
   color: #0D1321;
   opacity: 0.9;
   line-height: 26px;
 
 }
+
 /* Inspiration section styles */
-.inspiration-section{
+.inspiration-section {
   margin: 50px 0px;
 }
-.inspiration-video-container{
+
+.inspiration-video-container {
   border: 1px solid rgb(126, 126, 126);
   border-radius: 12px;
-  padding: 24px; 
+  padding: 24px;
 }
-.inspiration-video{
+
+.inspiration-video {
   border-radius: 12px;
 }
 
 /* Target section styles */
-.target-container{
+.target-container {
   margin: 30px 0px;
 
 }
-.target-contents{
+
+.target-contents {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -193,7 +203,8 @@ header nav a{
 
 
 }
-.target-card{
+
+.target-card {
   padding: 20px;
   border-radius: 12px;
   display: flex;
@@ -202,32 +213,98 @@ header nav a{
   gap: 20px;
 
 }
-.html-card{
+
+.html-card {
   background-color: #ff4b1e2f;
 }
-.css-card{
+
+.css-card {
   background-color: #004de82d;
 }
-.js-card{
+
+.js-card {
   background-color: hsla(52, 100%, 50%, 0.173);
 }
 
-.target-card h2{
+.target-card h2 {
   font-size: 24px;
 
   color: #0D1321;
 }
-.target-card p{
+
+.target-card p {
   font-size: 16px;
   color: #0d13219a;
   line-height: 24px;
 }
-.card-btn a{
+
+.card-btn a {
   font-size: 16px;
   font-weight: 700;
   color: #0d1321;
 }
+
 /* target section style end */
 
+/* contact us section styles */
+.contact-container {
+  background-image: url("../assets/contact-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
+  margin: 25px 0px;
+  padding: 54px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
 
+}
+
+.contact-contents {
+  max-width: 730px;
+  text-align: center;
+  padding: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+
+}
+
+.contact-contents h3,
+p {
+  color: white;
+}
+
+.contact-contents h3 {
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.contact-contents p {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.input-submit-part input[type="text"] {
+  padding: 16px;
+  width: 480px;
+  border-radius: 8px;
+  border: none;
+}
+
+.input-submit-part input[type="submit"] {
+  padding: 16px 24px;
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+}
+
+/* contact us section styles end*/
+
+/* footer styles start */
+
+/* footer styles end */
