@@ -255,6 +255,7 @@ header nav a {
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: overlay;
   margin: 25px 0px;
+  border-radius: 12px;
   padding: 54px 40px;
   display: flex;
   flex-direction: column;
