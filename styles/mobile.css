@@ -1,0 +1,54 @@
+@media screen and (max-width: 576px) {
+  main > section{
+    max-width: 95%;
+  }
+  /* nav style */
+  header nav{
+    max-width: 100%;
+  }
+  /* banner section style */
+  .banner-container{
+    width: 90%;
+  }
+  .banner-title {
+    font-size: 2.7rem;
+    font-weight: 900;
+    line-height: 3.6rem;
+  }
+  /* QA section style */
+  .QA-section .QA-container {
+    margin: 10px; 
+  }
+  .QA-column{
+    flex-direction: column;
+    gap: 50px;
+    padding: 15px;
+  }
+  /* Inspiration section style */
+  .inspiration-video-container .inspiration-video{
+    height: 400px;
+  }
+  /* Target section styles */
+  .target-contents{
+    flex-direction: column;
+  }
+  /* Next Target section styles */
+  .next-target-card{
+    flex-direction: column;
+    gap: 25px;
+    text-align: center;
+  }
+
+  /* contact us section style */
+  .contact-contents{
+    max-width: 90%;
+  }
+  /* footer section style */
+  .footer-container{
+    flex-direction: column-reverse;
+    justify-content: center;
+    gap: 20px;
+    padding: 28px 20px;
+  }
+  /* footer styles start */
+}
